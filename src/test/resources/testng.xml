@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="list.am">
+
+    <test name="Check pages filter functionality">
+        <groups>
+            <run>
+                <include name="page_filter"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="list_am.ApartmentsFilterFunctionality_Test"/>
+        </classes>
+    </test>
+
+</suite>

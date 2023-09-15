@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "name": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string",
+        "pattern": "^.*@.*$"
+      },
+      "gender": {
+        "type": "string",
+        "pattern": "^(male|female)$"
+      },
+      "status": {
+        "type": "string",
+        "pattern": "^(active|inactive)$"
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "email",
+      "gender",
+      "status"
+    ]
+  }
+}
