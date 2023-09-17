@@ -1,15 +1,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="list.am">
+<suite name="API">
 
-    <test name="Check pages filter functionality">
-        <groups>
-            <run>
-                <include name="page_filter"/>
-            </run>
-        </groups>
+    <test name="users functionality">
         <classes>
-            <class name="list_am.ApartmentsFilterFunctionality_Test"/>
+            <class name="UserTest"/>
         </classes>
     </test>
 
